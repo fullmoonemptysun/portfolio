@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vinoy Kumar</title>
+<meta name="description" content="Vinoy Kumar — Computer Science graduate. Projects, research, and experience.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="home-link" href="#top">Vinoy Kumar</a>
+    <nav aria-label="Section navigation">
+      <a href="#projects">Projects</a>
+      <a href="#research">Research</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero" id="top">
+    <div class="wrap">
+      <h1>Vinnie Kumar</h1>
+      <p class="role">Computer Science, B.S. - Class of 2026, Arizona State University</p>
+      <p class="bio">
+        I build close to Systems, Robotics and Deep Learning. Currently, I'm working on <a href="#current">SEREN, which is a disaster reconnaissance robotic system</a>
+        and shipped a handful of <a href="#projects">personal projects</a> I'm fond of.
+        Based in Phoenix, AZ :- open to software engineering, systems engineering, and robotics roles.
+      </p>
+      <ul class="contact-list">
+        <li><a href="mailto:vkumar82@asu.edu">vkumar82@asu.edu</a></li>
+        <li><a href="https://github.com/fullmoonemptysun" target="_blank" rel="noopener">github.com/fullmoonemptysun</a></li>
+        <li><a href="https://linkedin.com/in/vinniek" target="_blank" rel="noopener">linkedin.com/in/vinniek</a></li>
+        <li><a href="./resume.pdf">Resume (PDF)</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="projects" aria-labelledby="projects-heading">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="projects-heading">Projects</h2>
+        <div class="rule"></div>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h3>CodeSync - Distributed Code Execution Service</h3>
+          <span class="entry-meta">React · Express · Docker · Redis · AWS · Websockets </span>
+        </div>
+        <p>
+          A containerized code execution platform with a WebSocket-based architecture,
+          currently supporting single-user sandboxed runs in Docker with a Redis job
+          queue for fast turnaround, deployed on AWS with CI/CD. Actively building toward
+          multi-user, real-time collaborative sessions, with AI-assisted pair programming
+          planned next.
+        </p>
+        <div class="entry-links">
+          <a href="https://github.com/fullmoonemptysun" target="_blank" rel="noopener">Code</a>
+        </div>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h3>NES Emulator</h3>
+          <span class="entry-meta">C++ · Graphics Rendering · Hardware Emulation</span>
+        </div>
+        <p>
+          A cycle-accurate 6502 CPU emulator in C++ implementing the full 256-instruction
+          set with precise clock timing, paired with a Picture Processing Unit renderer
+          synchronized to CPU cycles. Produces frame output with roughly 95% accuracy
+          against real NES hardware.
+        </p>
+        <div class="entry-links">
+          <a href="https://github.com/fullmoonemptysun/witNES" target="_blank" rel="noopener">Code</a>
+        </div>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h3>Cross-Platform C Compiler</h3>
+          <span class="entry-meta">C++ · Compilers · LLVM · x86 Assembly</span>
+        </div>
+        <p>
+          A complete C compiler built from scratch, supporting pointers, structs, arrays,
+          and function calls with full type checking and semantic analysis. Includes a
+          multi-pass optimization stage: constant folding, dead code elimination, loop
+          unrolling; and an LLVM backend for cross-platform native code generation.
+        </p>
+        <div class="entry-links">
+          <a href="https://github.com/fullmoonemptysun/ccompiler" target="_blank" rel="noopener">Code</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="research" aria-labelledby="research-heading">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="research-heading">Research</h2>
+        <div class="rule"></div>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h3>Systems Research Assistant</h3>
+          <span class="entry-meta">May 2025 - Sep 2025 · SCAI, Arizona State University</span>
+        </div>
+        <p>
+          Developed a benchmarking framework in QEMU to profile VirtIO device performance
+          and identify latency bottlenecks in the guest-to-host disk I/O path. Integrated
+          LVM-based virtual disks in a QEMU + KVM setup to improve I/O throughput while
+          preserving data integrity in virtualized environments.
+        </p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h3>Linux Kernel Contributor (Open Source)</h3>
+          <span class="entry-meta">May 2025 - Present · Linux </span>
+        </div>
+        <p>
+          Contributed bugfix patches to staging-tree subsystems including USBip, PCIe,
+          and VirtIO-blk, improving driver reliability by following upstream conventions
+          and validating changes with checkpatch.pl.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="experience" aria-labelledby="experience-heading">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="experience-heading">Experience</h2>
+        <div class="rule"></div>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h3>Software Engineer Intern, Qualaces</h3>
+          <span class="entry-meta">Aug 2025 - Dec 2025 · Ann Arbor, MI</span>
+        </div>
+        <p>
+          Developed a HIPAA-compliant multimodal vision-language pipeline using Google
+          ML Kit and Ollama to parse medication bottles and prescriptions, deployed
+          across more than 50 clinics. Built an internal mailing/fax system, a RESTful API and dashboard with Supabase and AWS ECS (Fargate) to manage PHI, supporting secure operations for therapists and clinics.
+        </p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h3>Software Engineer Intern, DevilSec</h3>
+          <span class="entry-meta">Sep 2022 - Aug 2023 · Tempe, AZ</span>
+        </div>
+        <p>
+          Revamped a single-page application using React, Express, and JavaScript,
+          porting it to mobile devices and increasing monthly active users by 22%.
+          Implemented a PostgreSQL database on AWS RDS with hashed credential storage
+          to manage the organization's member list and login functionality.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="skills" aria-labelledby="skills-heading">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="skills-heading">Skills</h2>
+        <div class="rule"></div>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4>Languages</h4>
+          <p>C, C++, Python, Bash, JavaScript, SQL, C#, Java, Kotlin</p>
+        </div>
+        <div class="skill-group">
+          <h4>Frameworks</h4>
+          <p>React, Node.js, Express, .NET, Jest</p>
+        </div>
+        <div class="skill-group">
+          <h4>Backend &amp; Infrastructure</h4>
+          <p>Redis, Kubernetes, Docker, Jenkins, PostgreSQL, AWS, gRPC, MCP, RAG</p>
+        </div>
+        <div class="skill-group">
+          <h4>Cybersecurity</h4>
+          <p>Wireshark, tcpdump, netcat, nmap, curl, GDB, Ghidra, Cryptography</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Vinoy Kumar · Tempe, AZ</p>
+    <p class="updated">Last updated June 2026</p>
+  </div>
+</footer>
+
+</body>
+</html>
